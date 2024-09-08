@@ -1,0 +1,53 @@
+.card-title h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #4B92DB;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .dashboard-card {
+        width: 90%;
+    }
+
+    .card-title h1 {
+        font-size: 20px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .dashboard-card {
+        padding: 15px;
+    }
+
+    .card-title h1 {
+        font-size: 18px;
+    }
+
+    button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,31 @@
+.signup-card {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card-title h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.form-group input {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color:aliceblue;
+    border: 1px solid #ccc;
+}
+.form-group input[type="submit"] {
+    width: 98%;
+    background-color: #4B92DB;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.form-group input[type="submit"]:hover {
+    background-color: #4B92DB;
+}
